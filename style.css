@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.h4{
+    line-height: 0.5em;
+    font-weight: 100;
+    font-size: 22px;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.custom-carousel-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover; /* для сохранения пропорций и обрезания изображения по нужным размерам */
+  }
+  
+  /* Добавьте это, если вы хотите, чтобы карусель была квадратной */
+  .carousel-inner {
+    max-width: 200px; /* Устанавливает максимальную ширину карусели */
+    margin: auto; /* Центрирует карусель на странице */
+    border-radius: 10px;
+  }
+  
+  /* Стили для темных индикаторов */
+.carousel-indicators {
+    bottom: -1rem; /* Выносим индикаторы ниже изображения */
+  }
+  
+  .carousel-indicators button {
+    background-color: rgb(51, 51, 51); /* Цвет индикаторов */
+    width: 10px; /* Ширина индикатора */
+    height: 10px; /* Высота индикатора */
+    border: none; /* Убираем границу */
+    margin: 0 3px; /* Расстояние между индикаторами */
+    border-radius: 40%; /* Делаем индикаторы круглыми */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #fff; /* Цвет активного индикатора */
+  }
+  
+  .container-wrapper {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 420px; /* 100% высоты видимой области страницы */
+  }
+
+  .footer-text{
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  
+  a {
+    text-decoration: none;
+    color: rgb(216, 12, 12); /* Цвет текста по умолчанию */
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+  }
+  
+
+h5{
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+  a:hover {
+    fill: rgb(24, 138, 134);
+  }
+.icon:hover path{
+fill:red;
+}
+
+.icon:active path{
+    fill:rgb(231, 181, 181);
+}
+  /*   
+  a:hover svg path {
+    fill: rgb(168, 44, 155);
+  } */
+  
+  .social-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
