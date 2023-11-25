@@ -7,6 +7,11 @@
     line-height: 0.5em;
     font-weight: 100;
     font-size: 22px;
+  
+}
+
+h4{
+  color: brown;
 }
 
 .center_wrapper{
@@ -38,6 +43,10 @@ body {
 
 .menubar{
 padding-bottom: 70px;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #e8e8e8; /* Измените цвет фона по вашему желанию */
 }
 
 .offcanvas-collapse {
