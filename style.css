@@ -1,19 +1,61 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .h4{
     line-height: 0.5em;
     font-weight: 100;
     font-size: 22px;
 }
-.content{
-    padding-left: 10px;
-    padding-right: 10px;
+
+.center_wrapper{
+  
+}
+
+.main{
+  flex: 1;
+  /* text-align: center; */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 p{
     margin-left: 20px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+.offcanvas-collapse {
+  position: fixed;
+  top: 56px; /* Высота фиксированного верхнего бара, если применяется */
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  padding-right: 1rem;
+  overflow-y: auto;
+  visibility: hidden;
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease-in-out;
+}
+
+.offcanvas-collapse.open {
+  visibility: visible;
+  transform: translateX(250px);
+}
+
+.navbar-toggler-icon {
+  cursor: pointer;
 }
 
 .custom-carousel-image {
