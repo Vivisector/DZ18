@@ -36,6 +36,10 @@ body {
       padding-right: 10px;
 }
 
+.menubar{
+padding-bottom: 70px;
+}
+
 .offcanvas-collapse {
   position: fixed;
   top: 56px; /* Высота фиксированного верхнего бара, если применяется */
